@@ -66,16 +66,19 @@ main ul li:after {
 
 main ul li div {
   width: 440px;
-  padding: 0 40px;
+  padding: 0 70px;
 }
 main ul li div > div {
   padding: 20px;
 }
 main ul li div a {
+  transform: translateX(-10px);
+  display: inline-block;
   font-size: 1.1em;
   color: #222;
   text-decoration: none;
-  padding: 18px 22px;
+  padding: 18px 10px;
+  margin-bottom: 10px;
   transition: background-color, color 1s;
 }
 /* main ul li:after:hover {
